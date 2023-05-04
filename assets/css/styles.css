@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Index Styles */
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+main a{
+    text-decoration: none;
+}
+#cat-image{
+    background-image: url("https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/16:9/w_2560%2Cc_limit/1521-WIRED-Cat.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#apiimage2{
+    background-image: url("");
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#apiimage3{
+    background-image: url("");
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
