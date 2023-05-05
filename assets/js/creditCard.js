@@ -1,7 +1,6 @@
 
-const randomCountry = document.querySelector('#randomCo');
-const nameSearch = document.querySelector('#nameSearch');
-const mainSection = document.querySelector('#mainSection');
+const randomCard = document.querySelector('#randomCard');
+const mainSection = document.querySelector('#cardDiv');
 const baseurl = 'https://restcountries.com/v3.1/all'
 let countryInfo = {};
 
@@ -54,7 +53,7 @@ function printRandomCountrySection(){
 
 }
 
-function printRandomCountry(){
+function printRandomCard(){
     // <p class="card-text">Currency: ${Object.values(Object.values(countryInfo.currencies))}</p>
     document.querySelector('#cardDiv').innerHTML = `
         <img src="${countryInfo.flags.png}" class="card-img-top" alt="Country">
@@ -72,9 +71,7 @@ function printRandomCountry(){
     `
 }
 
-randomCountry.addEventListener('click',async ()=>{
-    printRandomCountrySection();
-})
-nameSearch.addEventListener('click',async ()=>{
-    alert("Work in Progress");
+randomCard.addEventListener('click',async ()=>{
+    console.log('Hello');
+    // printRandomCountrySection();
 })
